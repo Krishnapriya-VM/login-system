@@ -1,0 +1,99 @@
+/* Body Styles */
+body {
+  background-image: url('./assets/luke-chesser-pJadQetzTkI-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.allitems{
+  background-color: #ffffff;
+  
+}
+
+/* Navigation Bar Styles */
+.nav-bar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.list li {
+  margin: 0 15px;
+}
+
+.list li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Container Styles */
+.div-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+
+/* .container {
+  background-color:rgb(126, 43, 182);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+} */
+
+/* Typography Styles */
+.welcome-tag {
+  font-size: 24px;
+  margin: 0;
+}
+
+.user {
+  font-size: 27px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:red
+}
+
+.login-stats {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+/* Button Styles */
+.log-btn {
+  margin-top: 20px;
+}
+
+.btn {
+
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-light {
+  background-color: #f8f9fa;
+  color: #000;
+}
+
+
+.btn.btn:hover
+{
+  background-color: #0056b3;
+}
